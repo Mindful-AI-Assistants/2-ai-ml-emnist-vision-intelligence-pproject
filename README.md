@@ -5,9 +5,9 @@
 
 <br><br>
 
-#  <p align="center">🧠  AI/ML Project 1 ·  Computer Vision · EMNIST Vision Intelligence</p>
+#  <p align="center">🧠  AI/ML Project 1]() ·  [Computer Vision]() ·[ EMNIST Vision Intelligence]() </p>
 
-### <p align="center">End-to-End Handwritten Character Recognition System with PyTorch and Streamlit</p>
+### <p align="center">[End-to-End Handwritten Character Recognition System with PyTorch and Streamlit]()</p>
 
 <br><br>
 
