@@ -462,7 +462,7 @@ Why persistence matters:
 
 <br><br>
 
-# 📈 Evaluation and Metrics
+##  [Evaluation and Metrics]()
 
 ## Accuracy
 
@@ -491,7 +491,7 @@ Examples of difficult distinctions:
 <br><br>
 
 
-## MLOps Pipeline Architecture
+## [MLOps & System Architecture][()
 
 
 <br><br>
