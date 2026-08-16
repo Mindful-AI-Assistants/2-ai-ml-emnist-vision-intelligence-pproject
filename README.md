@@ -221,13 +221,13 @@ Specific goals:
 
 <br><br>
 
-# 🧠 Fundamental Concepts
+##  Fundamental Concepts]()
 
-## Deep Learning
+### Deep Learning]()
 
 Deep Learning is a subfield of Machine Learning based on multi-layer Artificial Neural Networks capable of learning complex representations directly from raw data.
 
-Why it matters:
+[Why it matters:]()
 
 - Automated feature extraction
 - Efficient handling of high-dimensional data
@@ -235,11 +235,11 @@ Why it matters:
 
 <br>
 
-## Multilayer Perceptron (MLP)
+### [Multilayer Perceptron (MLP)]()
 
 A Multilayer Perceptron is a fully connected neural architecture composed of dense layers and nonlinear activation functions.
 
-Purpose:
+[Purpose:]()
 
 - Learn nonlinear image patterns
 - Perform multi-class classification
@@ -247,11 +247,11 @@ Purpose:
 
 <br>
 
-## Optical Character Recognition (OCR)
+### [Optical Character Recognition (OCR)]()
 
 Optical Character Recognition refers to systems capable of converting handwritten or printed characters into machine-readable representations.
 
-Applications:
+[Applications:]()
 
 - Banking automation
 - Document digitization
@@ -260,7 +260,7 @@ Applications:
 
 <br><br>
 
-## 🗂️ Dataset Description
+##  [Dataset Description]()
 
 The project uses the EMNIST Balanced Dataset, an extension of the classic MNIST dataset.
 
@@ -271,7 +271,7 @@ The project uses the EMNIST Balanced Dataset, an extension of the classic MNIST 
 | Color Space | Grayscale |
 | Content | Digits + Uppercase + Lowercase |
 
-The dataset includes:
+[The dataset includes:]()
 
 - Digits from 0–9
 - Uppercase letters
@@ -281,9 +281,9 @@ The EMNIST Balanced variation was selected because it presents a significantly m
 
 <br><br>
 
-# 🔄 Data Pipeline
+## [Data Pipeline]()
 
-## Pipeline Stages
+### [Pipeline Stages]()
 
 ```text
 Dataset Loading
@@ -305,7 +305,7 @@ Testing
 
 <br>
 
-## Normalization
+### [Normalization]()
 
 The normalization procedure used:
 
@@ -320,9 +320,9 @@ Normalization stabilizes gradient propagation and accelerates convergence.
 
 <br><br>
 
-# 🏗️ Neural Network Architecture
+## [Neural Network Architecture]()
 
-## Architecture Overview
+### [Architecture Overview]()
 
 The implemented model is a fully connected Multilayer Perceptron named:
 
@@ -332,7 +332,7 @@ MLP_EMNIST
 
 <br>
 
-## Model Topology
+### [Model Topology]()
 
 ```text
 Input (28x28)
@@ -362,7 +362,7 @@ Softmax
 
 <br>
 
-## PyTorch Model
+### [PyTorch Model]()
 
 ```python
 class MLP_EMNIST(nn.Module):
@@ -388,11 +388,11 @@ class MLP_EMNIST(nn.Module):
 
 <br>
 
-## ReLU Activation
+### [ReLU Activation]()
 
 $$ReLU(x) = max(0, x)$$
 
-Benefits:
+[Benefits:]()
 
 - Faster convergence
 - Reduced vanishing gradients
@@ -400,7 +400,7 @@ Benefits:
 
 <br><br>
 
-# ⚙️ Training Process
+##  [Training Process]()
 
 | Parameter | Value |
 |---|---|
@@ -411,7 +411,7 @@ Benefits:
 
 <br>
 
-## Loss Function
+### [Loss Function]()
 
 The model uses:
 
@@ -421,7 +421,7 @@ This function is appropriate for multi-class classification problems.
 
 <br>
 
-## TensorBoard Monitoring
+### [TensorBoard Monitoring]()
 
 TensorBoard was used to monitor:
 
@@ -430,7 +430,7 @@ TensorBoard was used to monitor:
 - Validation performance
 - Experiment progression
 
-Benefits:
+[Benefits:]()
 
 - Better debugging
 - Easier hyperparameter tuning
@@ -438,9 +438,9 @@ Benefits:
 
 <br><br>
 
-# 💾 Model Persistence
+## [Model Persistence]()
 
-## Checkpoint Saving
+### [Checkpoint Saving]()
 
 ```python
 torch.save()
@@ -448,14 +448,14 @@ torch.save()
 
 <br>
 
-## Model Loading
+### [Model Loading]()
 
 ```python
 checkpoint = torch.load("best_model.pth")
 model.load_state_dict(checkpoint['modelo_state'])
 ```
 
-Why persistence matters:
+[Why persistence matters:]()
 
 - Reproducibility
 - Deployment readiness
@@ -466,13 +466,13 @@ Why persistence matters:
 
 ##  [Evaluation and Metrics]()
 
-## Accuracy
+### Accuracy]()
 
 $$Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$$
 
 <br>
 
-## Confusion Matrix
+## [Confusion Matrix]()
 
 The confusion matrix highlights:
 
@@ -480,7 +480,7 @@ The confusion matrix highlights:
 - Misclassifications
 - Class ambiguities
 
-Examples of difficult distinctions:
+[Examples of difficult distinctions:]()
 
 - '1' vs 'l'
 - '9' vs 'q'
@@ -488,15 +488,10 @@ Examples of difficult distinctions:
 <br><br>
 
 
-
-
-<br><br>
-
-
 ## [MLOps & System Architecture][()
 
 
-<br><br>
+<br>
 
 
 ```mermaid
@@ -602,7 +597,7 @@ linkStyle default stroke:#2dd4bf,stroke-width:1px;
 
 <br><br>
 
-# 🛠️ Technologies Used
+## [Technologies Used]()
 
 | Technology | Purpose |
 |---|---|
@@ -616,7 +611,7 @@ linkStyle default stroke:#2dd4bf,stroke-width:1px;
 
 <br><br>
 
-# 📁 Project Structure
+##  [Project Structure]()
 
 ```text
 project/
@@ -639,9 +634,9 @@ project/
 
 <br><br>
 
-# 💻 Code Examples
+##  [PCode Examples]()
 
-## Image Preprocessing
+### [Image Preprocessing]()
 
 ```python
 img = cv2.cvtColor(img.astype(np.uint8), cv2.COLOR_RGBA2GRAY)
@@ -651,7 +646,7 @@ _, img = cv2.threshold(img, 50, 255, cv2.THRESH_BINARY)
 
 <br>
 
-## Softmax Prediction
+## [Softmax Prediction]()
 
 ```python
 probabilities = torch.nn.functional.softmax(output, dim=1)
@@ -660,7 +655,7 @@ confidence, pred_idx = torch.max(probabilities, 1)
 
 <br>
 
-## Device Selection
+## [Device Selection]()
 
 ```python
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -668,9 +663,9 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 <br><br>
 
-# ▶️ How to Run
+## [How to Run]()
 
-## Clone Repository
+### [Clone Repository]()
 
 ```bash
 git clone https://github.com/your-repository/emnist-vision-intelligence.git
@@ -678,7 +673,7 @@ git clone https://github.com/your-repository/emnist-vision-intelligence.git
 
 <br>
 
-## Install Dependencies
+## [PInstall Dependencies]()
 
 ```bash
 pip install -r requirements.txt
@@ -686,7 +681,7 @@ pip install -r requirements.txt
 
 <br>
 
-## Run Project
+## [Run Project]()
 
 ```bash
 python main.py
@@ -694,7 +689,7 @@ python main.py
 
 <br><br>
 
-# 🎯 Use Cases
+## [Use Cases]()
 
 Potential real-world applications:
 
@@ -706,7 +701,7 @@ Potential real-world applications:
 
 <br><br>
 
-# 🚀 Future Improvements
+## [Future Improvements]()
 
 Possible future extensions:
 
@@ -719,11 +714,11 @@ Possible future extensions:
 
 <br><br>
 
-# ✅ Conclusion
+## [Conclusion]()
 
 This project successfully demonstrates the complete lifecycle of a modern Deep Learning solution, from raw data ingestion to inference-ready deployment.
 
-The implementation consolidated practical knowledge involving:
+[The implementation consolidated practical knowledge involving:]()
 
 - Neural Networks
 - Image preprocessing
@@ -736,7 +731,7 @@ The integration between PyTorch, OpenCV, TensorBoard, and EMNIST transformed an 
 
 <br><br>
 
-# 📖 Bibliographic References
+## [Bibliographic References]()
 
 - PyTorch Documentation
 - EMNIST Dataset Paper
@@ -746,7 +741,7 @@ The integration between PyTorch, OpenCV, TensorBoard, and EMNIST transformed an 
 
 <br><br>
 
-# ⭐ Academic Contribution
+## ⭐ [Academic Contribution]()
 
 This repository demonstrates practical applications of:
 
@@ -760,7 +755,6 @@ This repository demonstrates practical applications of:
 The project combines academic research methodology with production-oriented engineering practices.
 
 <br><br>
-
 <!-- ========= END README ========= -->
 
 
