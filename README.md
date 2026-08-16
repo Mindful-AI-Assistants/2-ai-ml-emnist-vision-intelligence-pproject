@@ -13,16 +13,18 @@
 
 <!-- ========= END REPO TITLE ========= -->
 
-#### <p align="center">✨ <i>Somewhere between scribbles and intelligence, this model takes shape.</i> ✨</p>
-
-<p align="center">
-<b>AI reading handwriting — confidence not guaranteed.</b> ⚡️
-</p>
+<!-- ========= Start Teaser ========= -->
+###### <p align="center"> ✨ **Teaching machines to recognize patterns...** ✨</p>
+###### <p align="center"> ***while humans fine-tune models, patience fine-tunes us.*** </p>
+#### <p align="center"> ⚡️
 
 <br>
 
+#
 
-<br><br>
+<br>
+<!-- ========= END Teaser ========= -->
+
 
 <!-- ========= START Dashboard Streamlit ========= -->
 <p align="center" style="margin: 0;">
