@@ -598,68 +598,172 @@ linkStyle default stroke:#2dd4bf,stroke-width:1px;
 ```
 
 
+<br><br>
 
+# 🛠️ Technologies Used
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Technology | Purpose |
+|---|---|
+| PyTorch | Deep Learning framework |
+| OpenCV | Image preprocessing |
+| TensorBoard | Experiment monitoring |
+| NumPy | Numerical operations |
+| PIL | Image manipulation |
+| CUDA | GPU acceleration |
+| scikit-learn | Evaluation metrics |
 
 <br><br>
+
+# 📁 Project Structure
+
+```text
+project/
+│
+├── data/
+├── notebooks/
+│   └── Neural_Network.ipynb
+│
+├── backup_models/
+│   └── best_model.pth
+│
+├── runs/
+│   └── tensorboard_logs/
+│
+├── main.py
+├── MLP_EMNIST.py
+├── requirements.txt
+└── README.md
+```
+
 <br><br>
+
+# 💻 Code Examples
+
+## Image Preprocessing
+
+```python
+img = cv2.cvtColor(img.astype(np.uint8), cv2.COLOR_RGBA2GRAY)
+img = 255 - img
+_, img = cv2.threshold(img, 50, 255, cv2.THRESH_BINARY)
+```
+
+<br>
+
+## Softmax Prediction
+
+```python
+probabilities = torch.nn.functional.softmax(output, dim=1)
+confidence, pred_idx = torch.max(probabilities, 1)
+```
+
+<br>
+
+## Device Selection
+
+```python
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+```
+
 <br><br>
+
+# ▶️ How to Run
+
+## Clone Repository
+
+```bash
+git clone https://github.com/your-repository/emnist-vision-intelligence.git
+```
+
+<br>
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+<br>
+
+## Run Project
+
+```bash
+python main.py
+```
+
 <br><br>
+
+# 🎯 Use Cases
+
+Potential real-world applications:
+
+- OCR systems
+- Banking automation
+- Educational AI tools
+- Smart document analysis
+- Accessibility technologies
+
 <br><br>
+
+# 🚀 Future Improvements
+
+Possible future extensions:
+
+- Convolutional Neural Networks (CNNs)
+- Transformer architectures
+- Real-time webcam inference
+- Cloud deployment
+- Explainable AI (XAI)
+- Docker containerization
+
 <br><br>
+
+# ✅ Conclusion
+
+This project successfully demonstrates the complete lifecycle of a modern Deep Learning solution, from raw data ingestion to inference-ready deployment.
+
+The implementation consolidated practical knowledge involving:
+
+- Neural Networks
+- Image preprocessing
+- Model persistence
+- Real-time inference
+- Computer Vision
+- Deep Learning experimentation
+
+The integration between PyTorch, OpenCV, TensorBoard, and EMNIST transformed an academic assignment into a sophisticated applied Artificial Intelligence solution.
+
 <br><br>
+
+# 📖 Bibliographic References
+
+- PyTorch Documentation
+- EMNIST Dataset Paper
+- TensorBoard Documentation
+- OpenCV Documentation
+- scikit-learn Documentation
+
 <br><br>
+
+# ⭐ Academic Contribution
+
+This repository demonstrates practical applications of:
+
+- Deep Learning
+- Computer Vision
+- Neural Networks
+- OCR systems
+- Experiment tracking
+- MLOps concepts
+
+The project combines academic research methodology with production-oriented engineering practices.
+
 <br><br>
+
+<!-- ========= END README ========= -->
+
 
 
 <!-- ======================================= Start DEFAULT Footer ===========================================  -->
-
-<br><br>
-
-
 ## 💌 [Let the data flow... Ping Me !](mailto:fabicampanari@proton.me)
 
 <br>
