@@ -5,14 +5,13 @@
 
 <br><br>
 
+<!-- ========= Start REPO TITLE ========= -->
 #  <p align="center">🧠  AI/ML Project 1 ·  Computer Vision · EMNIST Vision Intelligence</p>
 
 ### <p align="center">End-to-End Handwritten Character Recognition System with PyTorch and Streamlit</p>
 
-<br><br>
-
+<br>
 <!-- ========= END REPO TITLE ========= -->
-
 
 <!-- ========= Start Teaser ========= -->
 ###### <p align="center"> ✨ **Teaching machines to recognize patterns...** ✨</p>
@@ -20,10 +19,51 @@
 #### <p align="center"> ⚡️
 
 <br><br>
+<!-- ========= END Teaser ========= -->
+
+
+<!-- ========= START SPONSOR BADGE ========= -->
+#### <p align="center">[![Sponsor ॐ ⋆ ⋆ ⋆ ⋆ Mindful AI ⋆ ⋆ ⋆ ⋆ 𖤐](https://img.shields.io/badge/Sponsor-%E0%A5%90%20%E2%8B%86%20%E2%8B%86%20%E2%8B%86%20%E2%8B%86%20Mindful%20AI%20%E2%8B%86%20%E2%8B%86%20%E2%8B%86%20%E2%8B%86%20%F0%96%A4%90-brightgreen?logo=github)](https://github.com/sponsors/Mindful-AI-Research)
+
+<br><br>
+<!-- ========= END SPONSOR BADGE ========= -->
+
+<!-- =========  START PUC HEADER GIF ========= -->
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/791a69e2-d09a-429f-9257-f6667fff5c04 ">
+ </p>
+
+<br><br><br><br>
+<!-- =========  END PUC HEADER GIF ========= -->
+
+<!-- ======================================= Start  Institutional INFO =========================================== -->
+[**Institution:**]() Pontifical Catholic University of São Paulo (PUC-SP) — FACEI  
+[**Course:**]() BSc in Humanin-Centerd AI & Data Science — 5th semester — 2026  
+[**Subject:**]() Machine Learning for Handwritten Character Recognition  
+[**Project:**]() P1 — EMNIST Vision Intelligence Project  
+**Professor:** [✨ Rooney Ribeiro Albuquerque Coelho](https://www.linkedin.com/in/rooney-coelho-320857182/)  
+**Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) and [Pedro Vyctor Almeida](https://www.linkedin.com/in/pedro-vyctor-almeida-285b89273/) 
+
+<br><br>
 
 #
+
 <br><br>
-<!-- ========= END Teaser ========= -->
+<!-- ========= END Institucional INFO ========= -->
+
+<!-- ========= START NOTE ========= -->
+> [!WARNING]
+>
+>  *  ⚠️ Projects may be made [publicly available]() whenever possible  
+>
+> * The course emphasizes **hands-on experience** with real datasets
+> * Activities follow [**PUC-SP academic and ethical guidelines**]()
+> * Restricted material remains **confidential**
+> * Extension activities are part of the course design and connect technical work to community-facing impact
+
+<br><br>
+<!-- ========= END NOTE ========= -->
+
 
 <!-- ========= START Dashboard Streamlit ========= -->
 <p align="center" style="margin: 0;">
@@ -67,19 +107,7 @@
 <!-- ========= END DATA ANALYSING REPORT ========= -->
 
 
-<!-- ======================================= Institutional INFO =========================================== -->
-[**Institution:**]() Pontifical Catholic University of São Paulo (PUC-SP) — FACEI  
-[**Course:**]() BSc in Humanin-Centerd AI & Data Science — 5th semester — 2026  
-[**Subject:**]() Machine Learning for Handwritten Character Recognition  
-[**Project:**]() P1 — EMNIST Vision Intelligence Project  
 
-**Professor:** [✨ Rooney Ribeiro Albuquerque Coelho](https://www.linkedin.com/in/rooney-coelho-320857182/)  
-**Authors:** 
-- [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) 
-- [Pedro Vyctor Almeida](https://www.linkedin.com/in/pedro-vyctor-almeida-285b89273/) 
-
-<br><br>
-<!-- ========= END Institucional INFO ========= -->
 
 
 
@@ -88,18 +116,6 @@
 
 <br><br><br>
 <!-- ========= END SPONSORTBADGE ========= -->
-
-
-
-<!-- =========  START PUC HEADER GIF ========= -->
-<p align="center">
-   <img src="https://github.com/user-attachments/assets/791a69e2-d09a-429f-9257-f6667fff5c04 ">
- </p>
-
-
-<br><br><br><br>
-<!-- =========  END PUC HEADER GIF ========= -->
-
 
 
 <!-- ========= START BADGES GROUP 2 ========= -->
