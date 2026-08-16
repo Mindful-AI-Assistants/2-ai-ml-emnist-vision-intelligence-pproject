@@ -162,8 +162,328 @@
 
 ## Table of Contents
 
+- [Overview](#overview)
+- [Objectives](#objectives)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Dataset Description](#dataset-description)
+- [Data Pipeline](#data-pipeline)
+- [Neural Network Architecture](#neural-network-architecture)
+- [Training Process](#training-process
+- [Model Persistence](#model-persistence)
+- [Evaluation and Metrics](#evaluation-and-metrics)
+- [MLOps & System Architecture](#mlops-system-architecture)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Code Examples](#code-examples)
+- [How to Run](#how-to-run)
+- [Use Cases](#use-cases)
+- [Future Improvements](#future-improvements)
+- [Conclusion](#conclusion)
+- [Bibliographic References](#bibliographic-references)
+ 
 
-🚧 Project Under Construction 🚧
+<br><br>
+
+##  [Overview]()
+
+This project presents a complete Deep Learning pipeline focused on handwritten alphanumeric character recognition using the EMNIST Balanced Dataset.
+
+The solution was developed using the PyTorch ecosystem and includes:
+
+- Data ingestion and preprocessing
+- Neural network modeling
+- Training and validation
+- TensorBoard monitoring
+- Model persistence
+- OpenCV image preprocessing
+- Real-time inference
+- Probability prediction using Softmax
+
+The project extends beyond a conventional notebook experiment by implementing a production-oriented inference workflow capable of recognizing handwritten digits and letters.
+
+<br><br>
+
+##  [Objectives]()
+
+The main objective of this project is to implement and validate a robust handwritten character recognition pipeline using Artificial Neural Networks.
+
+Specific goals:
+
+- Apply Deep Learning concepts using PyTorch
+- Train a Multilayer Perceptron (MLP)
+- Explore image preprocessing techniques
+- Evaluate multi-class classification performance
+- Monitor experiments using TensorBoard
+- Build an inference-ready architecture
+- Demonstrate model reproducibility and persistence
+
+<br><br>
+
+# 🧠 Fundamental Concepts
+
+## Deep Learning
+
+Deep Learning is a subfield of Machine Learning based on multi-layer Artificial Neural Networks capable of learning complex representations directly from raw data.
+
+Why it matters:
+
+- Automated feature extraction
+- Efficient handling of high-dimensional data
+- Foundation of modern Computer Vision systems
+
+<br>
+
+## Multilayer Perceptron (MLP)
+
+A Multilayer Perceptron is a fully connected neural architecture composed of dense layers and nonlinear activation functions.
+
+Purpose:
+
+- Learn nonlinear image patterns
+- Perform multi-class classification
+- Map pixel distributions into semantic labels
+
+<br>
+
+## Optical Character Recognition (OCR)
+
+Optical Character Recognition refers to systems capable of converting handwritten or printed characters into machine-readable representations.
+
+Applications:
+
+- Banking automation
+- Document digitization
+- Postal systems
+- Educational technologies
+
+<br><br>
+
+## 🗂️ Dataset Description
+
+The project uses the EMNIST Balanced Dataset, an extension of the classic MNIST dataset.
+
+| Property | Value |
+|---|---|
+| Classes | 47 |
+| Image Size | 28×28 |
+| Color Space | Grayscale |
+| Content | Digits + Uppercase + Lowercase |
+
+The dataset includes:
+
+- Digits from 0–9
+- Uppercase letters
+- Selected lowercase letters
+
+The EMNIST Balanced variation was selected because it presents a significantly more realistic classification scenario than traditional MNIST.
+
+<br><br>
+
+# 🔄 Data Pipeline
+
+## Pipeline Stages
+
+```text
+Dataset Loading
+↓
+Transforms
+↓
+Normalization
+↓
+Data Splitting
+↓
+DataLoader
+↓
+Training
+↓
+Validation
+↓
+Testing
+```
+
+<br>
+
+## Normalization
+
+The normalization procedure used:
+
+$$x' = \frac{x - \mu}{\sigma}$$
+
+Where:
+
+- $\mu = 0.2860$
+- $\sigma = 0.3530$
+
+Normalization stabilizes gradient propagation and accelerates convergence.
+
+<br><br>
+
+# 🏗️ Neural Network Architecture
+
+## Architecture Overview
+
+The implemented model is a fully connected Multilayer Perceptron named:
+
+```python
+MLP_EMNIST
+```
+
+<br>
+
+## Model Topology
+
+```text
+Input (28x28)
+↓
+Flatten
+↓
+Linear 784 → 512
+↓
+ReLU
+↓
+Dropout 0.3
+↓
+Linear 512 → 256
+↓
+ReLU
+↓
+Dropout 0.2
+↓
+Linear 256 → 128
+↓
+ReLU
+↓
+Linear 128 → 47
+↓
+Softmax
+```
+
+<br>
+
+## PyTorch Model
+
+```python
+class MLP_EMNIST(nn.Module):
+    def __init__(self, n_classes: int = 47):
+        super().__init__()
+
+        self.linear_relu_stack = nn.Sequential(
+            nn.Flatten(),
+            nn.Linear(28*28, 512),
+            nn.ReLU(),
+            nn.Dropout(0.3),
+
+            nn.Linear(512, 256),
+            nn.ReLU(),
+            nn.Dropout(0.2),
+
+            nn.Linear(256, 128),
+            nn.ReLU(),
+
+            nn.Linear(128, n_classes)
+        )
+```
+
+<br>
+
+## ReLU Activation
+
+$$ReLU(x) = max(0, x)$$
+
+Benefits:
+
+- Faster convergence
+- Reduced vanishing gradients
+- Computational efficiency
+
+<br><br>
+
+# ⚙️ Training Process
+
+| Parameter | Value |
+|---|---|
+| Batch Size | 128 |
+| Framework | PyTorch |
+| Dataset | EMNIST Balanced |
+| Device | CPU / GPU (CUDA) |
+
+<br>
+
+## Loss Function
+
+The model uses:
+
+$$CrossEntropyLoss$$
+
+This function is appropriate for multi-class classification problems.
+
+<br>
+
+## TensorBoard Monitoring
+
+TensorBoard was used to monitor:
+
+- Loss curves
+- Accuracy curves
+- Validation performance
+- Experiment progression
+
+Benefits:
+
+- Better debugging
+- Easier hyperparameter tuning
+- Improved experiment analysis
+
+<br><br>
+
+# 💾 Model Persistence
+
+## Checkpoint Saving
+
+```python
+torch.save()
+```
+
+<br>
+
+## Model Loading
+
+```python
+checkpoint = torch.load("best_model.pth")
+model.load_state_dict(checkpoint['modelo_state'])
+```
+
+Why persistence matters:
+
+- Reproducibility
+- Deployment readiness
+- Experiment continuation
+- Production inference
+
+<br><br>
+
+# 📈 Evaluation and Metrics
+
+## Accuracy
+
+$$Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$$
+
+<br>
+
+## Confusion Matrix
+
+The confusion matrix highlights:
+
+- Correct predictions
+- Misclassifications
+- Class ambiguities
+
+Examples of difficult distinctions:
+
+- '1' vs 'l'
+- '9' vs 'q'
+
+<br><br>
 
 
 
