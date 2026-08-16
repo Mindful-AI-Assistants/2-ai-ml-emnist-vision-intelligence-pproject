@@ -154,11 +154,6 @@
 >
 > 🔗 [**Helipoint Detector — Computer Vision Project**](https://github.com/Mindful-AI-Assistants/3-project-ai-ml-yolo-helipoint-detector)
 >
-> #
->
-> ✨ Part of the *Humanistic AI & Machine Learning Series*
->
-> *Teaching machines to recognize patterns while humans fine-tune both models and patience.* ⚡️
 
 <br><br><br><br>
 <!-- ========= END Main Repo REFERENCE  ========= -->
