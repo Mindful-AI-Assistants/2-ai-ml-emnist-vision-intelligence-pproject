@@ -43,62 +43,6 @@
 <!-- ========= END Teaser ========= -->
 
 
-<!-- ========= START Dashboard Streamlit ========= -->
-<p align="center" style="margin: 0;">
-  <a href="https://identificados-de-letras-e-numeros.streamlit.app/" rel="noopener noreferrer">
-    <img 
-      src="https://img.shields.io/badge/Streamlit%20Cloud-EMNIST%20Inference%20System-0f172a?style=for-the-badge&logo=streamlit&logoColor=white" 
-      alt="Streamlit Cloud EMNIST Inference System"
-      style="height: 38px; width: auto;"
-    />
-  </a>
-</p>
-
-<!-- ========= END Dashboard Streamlit ========= -->
-
-
-<!-- ========= START Canva Slides ========= -->
-<p align="center" style="margin: 0;">
-
-  <a href="https://www.canva.com/design/DAHI8GmXZP8/Hxi6FpvjeKvf3em_iXlp2Q/edit" rel="noopener noreferrer">
-    <img 
-      src="https://img.shields.io/badge/Canva-Deep%20Learning%20Presentation-0f766e?style=for-the-badge&logo=canva&logoColor=white" 
-      alt="Canva Deep Learning Presentation"
-      style="height: 32px; width: auto; margin-right: 8px;"
-    />
-  </a>
-  
-<!-- =========End Canva Slides ========= -->
-
-<!-- ========= START DATA ANALYSING REPORT ========= -->
-  <a href="https://github.com/Mindful-AI-Assistants/ai-ml-emnist-vision-intelligence-pproject/blob/5119adc130f94eff7ef70de7a90ab8d291be764d/Model%20Analysis.pdf" target="_blank" rel="noopener noreferrer">
-    <img 
-      src="https://img.shields.io/badge/Data%20Analysis-Neural%20Network%20Report-134e4a?style=for-the-badge&logo=googleanalytics&logoColor=white&labelColor=022c22" 
-      alt="Neural Network Analysis Report"
-      style="height: 32px; width: auto;"
-    />
-  </a>
-
-</p>
-
-<br><br><br><br>
-<!-- ========= END DATA ANALYSING REPORT ========= -->
-
-
-<!-- ======================================= Institutional INFO =========================================== -->
-[**Institution:**]() Pontifical Catholic University of São Paulo (PUC-SP) — FACEI  
-[**Course:**]() BSc in Humanistic AI & Data Science — 5th semester — 2026  
-[**Subject:**]() Machine Learning for Handwritten Character Recognition  
-[**Project:**]() P1 — EMNIST Vision Intelligence Project  
-
-**Professor:** [✨ Rooney Ribeiro Albuquerque Coelho](https://www.linkedin.com/in/rooney-coelho-320857182/)  
-**Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [✨ Pedro Vyctor Almeida](https://www.linkedin.com/in/pedro-vyctor-almeida-285b89273/) 
-
-<br><br>
-<!-- ========= END Institucional INFO ========= -->
-
-
-
 <!-- ========= START SPONSORT BADGE ========= -->
 #### <p align="center"> [![Sponsor Mindful AI Assistants](https://img.shields.io/badge/Sponsor-%C2%B7%C2%B7%C2%B7%20Mindful%20AI%20Assistants%20%C2%B7%C2%B7%C2%B7-brightgreen?logo=GitHub)](https://github.com/sponsors/Mindful-AI-Assistants)
 
@@ -114,11 +58,24 @@
 
 
 <br><br>
+<!-- =========  END PUC HEADER GIF ========= -->
+
+<!-- ======================================= Institutional INFO =========================================== -->
+[**Institution:**]() Pontifical Catholic University of São Paulo (PUC-SP) — FACEI  
+[**Course:**]() BSc in Humanistic AI & Data Science — 5th semester — 2026  
+[**Subject:**]() Machine Learning for Handwritten Character Recognition  
+[**Project:**]() P1 — EMNIST Vision Intelligence Project  
+
+**Professor:** [✨ Rooney Ribeiro Albuquerque Coelho](https://www.linkedin.com/in/rooney-coelho-320857182/)  
+**Authors:** [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [✨ Pedro Vyctor Almeida](https://www.linkedin.com/in/pedro-vyctor-almeida-285b89273/) 
+
+<br>
 
 #
 
-<br><br>
-<!-- =========  END PUC HEADER GIF ========= -->
+<br>
+<!-- ========= END Institucional INFO ========= -->
+
 
 
 
@@ -161,9 +118,55 @@
 > 🔗 [**Helipoint Detector — Computer Vision Project**](https://github.com/Mindful-AI-Assistants/3-project-ai-ml-yolo-helipoint-detector)
 >
 
-<br><br><br><br>
+<br><br>
+
+#
+
+<br><br>
 <!-- ========= END Main Repo REFERENCE  ========= -->
 
+
+
+<!-- ========= START Dashboard Streamlit ========= -->
+<p align="center" style="margin: 0;">
+  <a href="https://identificados-de-letras-e-numeros.streamlit.app/" rel="noopener noreferrer">
+    <img 
+      src="https://img.shields.io/badge/Streamlit%20Cloud-EMNIST%20Inference%20System-0f172a?style=for-the-badge&logo=streamlit&logoColor=white" 
+      alt="Streamlit Cloud EMNIST Inference System"
+      style="height: 38px; width: auto;"
+    />
+  </a>
+</p>
+
+<!-- ========= END Dashboard Streamlit ========= -->
+
+
+<!-- ========= START Canva Slides ========= -->
+<p align="center" style="margin: 0;">
+
+  <a href="https://www.canva.com/design/DAHI8GmXZP8/Hxi6FpvjeKvf3em_iXlp2Q/edit" rel="noopener noreferrer">
+    <img 
+      src="https://img.shields.io/badge/Canva-Deep%20Learning%20Presentation-0f766e?style=for-the-badge&logo=canva&logoColor=white" 
+      alt="Canva Deep Learning Presentation"
+      style="height: 32px; width: auto; margin-right: 8px;"
+    />
+  </a>
+  
+<!-- =========End Canva Slides ========= -->
+
+<!-- ========= START DATA ANALYSING REPORT ========= -->
+  <a href="https://github.com/Mindful-AI-Assistants/ai-ml-emnist-vision-intelligence-pproject/blob/5119adc130f94eff7ef70de7a90ab8d291be764d/Model%20Analysis.pdf" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://img.shields.io/badge/Data%20Analysis-Neural%20Network%20Report-134e4a?style=for-the-badge&logo=googleanalytics&logoColor=white&labelColor=022c22" 
+      alt="Neural Network Analysis Report"
+      style="height: 32px; width: auto;"
+    />
+  </a>
+
+</p>
+
+<br><br><br><br>
+<!-- ========= END DATA ANALYSING REPORT ========= -->
 
 
 ## Table of Contents
