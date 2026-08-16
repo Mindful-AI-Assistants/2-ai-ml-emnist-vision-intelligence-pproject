@@ -168,7 +168,7 @@
 - [Dataset Description](#dataset-description)
 - [Data Pipeline](#data-pipeline)
 - [Neural Network Architecture](#neural-network-architecture)
-- [Training Process](#training-process
+- [Training Process](#training-process)
 - [Model Persistence](#model-persistence)
 - [Evaluation and Metrics](#evaluation-and-metrics)
 - [MLOps & System Architecture](#mlops-system-architecture)
