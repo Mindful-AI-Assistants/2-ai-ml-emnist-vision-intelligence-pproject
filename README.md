@@ -5,13 +5,30 @@
 
 <br><br>
 
-#  <p align="center">🧠  AI/ML Project 1]() ·  [Computer Vision]() ·[ EMNIST Vision Intelligence]() </p>
+#  <p align="center">🧠  [AI/ML Project 1]() ·  [Computer Vision]() ·[ EMNIST Vision Intelligence]() </p>
 
 ### <p align="center">[End-to-End Handwritten Character Recognition System with PyTorch and Streamlit]()</p>
 
 <br><br>
 
 <!-- ========= END REPO TITLE ========= -->
+
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-AI%20Pipeline-0f172a?style=for-the-badge&logo=python&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-101f2f?style=for-the-badge&logo=pytorch&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/CNN-Computer%20Vision-112a3a?style=for-the-badge&logo=tensorflow&logoColor=white" height="28" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OpenCV-Image%20Processing-124050?style=for-the-badge&logo=opencv&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/TensorBoard-Training%20Metrics-134a4a?style=for-the-badge&logo=tensorflow&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/EMNIST-47%20Classes-134e4a?style=for-the-badge&logo=tensorflow&logoColor=white" height="28" />
+</p>
+
+<br>
+
 
 <!-- ========= Start Teaser ========= -->
 ###### <p align="center"> ✨ **Teaching machines to recognize patterns...** ✨</p>
@@ -96,29 +113,12 @@
  </p>
 
 
-<br><br><br><br>
+<br><br>
+
+#
+
+<br><br>
 <!-- =========  END PUC HEADER GIF ========= -->
-
-
-
-<!-- ========= START BADGES GROUP 2 ========= -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-AI%20Pipeline-0f172a?style=for-the-badge&logo=python&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-101f2f?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/CNN-Computer%20Vision-112a3a?style=for-the-badge&logo=tensorflow&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenCV-Image%20Processing-124050?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorBoard-Training%20Metrics-134a4a?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/EMNIST-47%20Classes-134e4a?style=for-the-badge&logo=tensorflow&logoColor=white" />
-</p>
-
-<br><br><br>
-<!-- ========= END BADGES GROUP 2 ========= -->
 
 
 
@@ -130,7 +130,11 @@
 > All sensitive content remains protected in private repositories when required.
 >
 
-<br><br>
+<br>
+
+#
+
+<br>
 <!-- ========= END NOTE ========= -->
 
 
