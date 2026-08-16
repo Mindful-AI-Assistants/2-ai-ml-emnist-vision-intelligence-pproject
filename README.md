@@ -13,16 +13,17 @@
 
 <!-- ========= END REPO TITLE ========= -->
 
-#### <p align="center">✨ <i>Somewhere between scribbles and intelligence, this model takes shape.</i> ✨</p>
 
-<p align="center">
-<b>AI reading handwriting — confidence not guaranteed.</b> ⚡️
-</p>
-
-<br>
-
+<!-- ========= Start Teaser ========= -->
+###### <p align="center"> ✨ **Teaching machines to recognize patterns...** ✨</p>
+###### <p align="center"> ***while humans fine-tune models, patience fine-tunes us.*** </p>
+#### <p align="center"> ⚡️
 
 <br><br>
+
+#
+<br><br>
+<!-- ========= END Teaser ========= -->
 
 <!-- ========= START Dashboard Streamlit ========= -->
 <p align="center" style="margin: 0;">
@@ -68,7 +69,7 @@
 
 <!-- ======================================= Institutional INFO =========================================== -->
 [**Institution:**]() Pontifical Catholic University of São Paulo (PUC-SP) — FACEI  
-[**Course:**]() BSc in Humanistic AI & Data Science — 5th semester — 2026  
+[**Course:**]() BSc in Humanin-Centerd AI & Data Science — 5th semester — 2026  
 [**Subject:**]() Machine Learning for Handwritten Character Recognition  
 [**Project:**]() P1 — EMNIST Vision Intelligence Project  
 
@@ -140,11 +141,11 @@
 >
 > This repository is part of the flagship ecosystem:
 >
-> ## 🧠 AI & Machine Learning — Main Hub
+> ## 🧠 AI / ML - Neural Networks —  Hub
 >
 > Explore the complete collection of projects, notebooks, research materials, analyses, and interactive applications available in the central repository:
 >
-> 🔗 **[AI & Machine Learning — Hub](https://github.com/Mindful-AI-Assistants/1-AI_Machine-Learning_Hub)**
+> 🔗 **[AI /ML - Neural Networks — Hub](https://github.com/Mindful-AI-Assistants/1-AI_Machine-Learning_Hub)**
 >
 > #
 >
@@ -154,13 +155,10 @@
 >
 > Explore the complementary geospatial intelligence system focused on satellite-based helipad detection:
 >
-> 🔗 [**Helipoint Detector — Computer Vision Project**](https://github.com/Mindful-AI-Assistants/3-project-ai-ml-yolo-helipoint-detector)
+> 🔗 [**Helipad Detector — Computer Vision Project**](https://github.com/Mindful-AI-Research/1-ai-ml_neural-networks_hub)
 >
-> #
->
-> ✨ Part of the *Humanistic AI & Machine Learning Series*
->
-> *Teaching machines to recognize patterns while humans fine-tune both models and patience.* ⚡️
+
+
 
 <br><br><br><br>
 <!-- ========= END Main Repo REFERENCE  ========= -->
