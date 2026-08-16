@@ -261,12 +261,17 @@ Applications:
 
 The project uses the EMNIST Balanced Dataset, an extension of the classic MNIST dataset.
 
+
 | Property | Value |
 |---|---|
 | Classes | 47 |
 | Image Size | 28×28 |
 | Color Space | Grayscale |
 | Content | Digits + Uppercase + Lowercase |
+
+
+<br>
+
 
 The dataset includes:
 
